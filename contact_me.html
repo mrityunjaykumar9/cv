@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
+    <style>
+       
+        .cont{
+        
+            background-color: aquamarine;
+            font-family: 'ABeeZee', sans-serif;
+            width: 69%;
+            padding: 60px;
+            margin: auto;
+            text-align: left;
+            position: relative;
+            
+        }
+        .me{
+            display: inline-block;
+            font-size: 1.5rem;
+            margin-right: 60px;
+        }
+        .contact{
+            position:  absolute;
+            right: 30px;
+            top:150px
+            
+        }
+        .submit{
+            padding:10px;
+            background-color: rgb(255, 0, 76);
+            font-weight: bold;
+            font-size: 1.25rem;
+            border-radius: 12px;
+        }
+       .submit:hover{
+           background-color: rgb(9, 139, 96);
+       }
+    </style>
+</head>
+
+<body>
+   
+    <div class="cont">
+        <div class="me">
+            <h1>Contact Me</h1>
+    <form action="mailto:mrityunjayk.cs.20@nitj.ac.in" method="POST">
+        <div><label for="name">Name :</label>
+            <input type="text" name="your name" id="name">
+        </div>
+        <br>
+        <div><label for="email">Email :</label>
+            <input type="email" name="your email" id="email">
+        </div>
+        <br>
+        <div> <label>Are you know me :</label>
+            <input type="checkbox">
+        </div>
+        <br>
+        <div>
+            <label for="">Which is your best color</label>
+            <input type="color">
+        </div>
+        <br>
+        <div>
+            <label for="">Date :</label>
+            <input type="datetime-local">
+        </div><br>
+        <div>
+            <label for="">Enter your Document</label>
+            <input type="file">
+        </div>
+        <br>
+        <div>
+            <label for="">Mobile number :</label>
+            <input type="number">
+        </div>
+        <br>
+        <div>
+            <label for="">Are you male of female :</label>
+            Male <input type="radio"> female <input type="radio"> 
+        </div>
+        <br>
+        <div>
+            <input class="submit" type="submit" value="submit now">
+            <input class="submit" type="reset"  value="reset now">
+        </div>
+     
+    </form>
+        </div>
+
+        <div class="contact">
+            <img style="width: 80%;" src="https://media.giphy.com/media/EnxYX67QwEZLGUgM1S/giphy.gif" alt="">
+        </div>
+        
+    </div>
+    
+    
+</body>
+
+</html>
